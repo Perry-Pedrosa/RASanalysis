@@ -18,4 +18,4 @@ It is to be noted Kent has never stipulated a high score will lead to a successf
 - We will be using data from 2009-2024 to ensure variety
 - We will be only looking at the **Cornerback** position, the reason for this is that it is the most independent position in football, a Cornerbacks reliance on other team members to do their job is minimal and is the reason why the position is nicknamed *The Island*, they are alone, detached from all other players on the field.
 - An average score will be attained when preparing the data, outliers calculated by IQR and nulls will be removed.
-- Metrics for success will be based around accolades
+- Metrics for success will be based around accolades; *all-pro selections*, *drafted*, *1st round draft pick*, *PFF coverage grade*
