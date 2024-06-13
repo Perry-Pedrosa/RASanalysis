@@ -10,3 +10,7 @@ This project objective is not to challenge the RAS model, it is to use the score
 *H0* - **A RAS of *x* will lead to a successful NFL career**
 
 *H1* - **RAS doesnt not affect the career success of an NFL Player**
+
+It is to be noted Kent has never stipulated a high score will lead to a successful career. The NFL has a lot of variables so isolating them to minimise the impact on the model(s) will be paramount.
+
+##Scope
