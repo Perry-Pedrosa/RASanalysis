@@ -7,5 +7,6 @@ If nothing else, I hope that you can at least take away from this how a non NFL 
 ## Executive Summary
 This project objective is not to challenge the RAS model, it is to use the score as a coefficiant to both understand the correlation between a score and success. Additionally we will use that to calculate the probability that a high score will lead to a successful career using the basis of this hypothesis:
 
-*H0* - A RAS of *x* will lead to a successful NFL career
-*H1* - RAS doesnt not affect the career success of an NFL Player
+*H0* - **A RAS of *x* will lead to a successful NFL career**
+
+*H1* - **RAS doesnt not affect the career success of an NFL Player**
