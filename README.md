@@ -13,4 +13,4 @@ This project objective is not to challenge the RAS model, it is to use the score
 
 It is to be noted Kent has never stipulated a high score will lead to a successful career. The NFL has a lot of variables so isolating them to minimise the impact on the model(s) will be paramount.
 
-##Scope
+## Scope
