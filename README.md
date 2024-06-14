@@ -43,4 +43,4 @@ The data has been sourced from various host sites:
 
 Beow is a visualisation of the data 'cleaning' process. Some data needs to be appended as it is stored by year so need to be combined. Data will then be merged in Power Query using the player name after some validation takes place to identify potential duplicates:
 
-![Data Preparation Steps](assets/Cleaning.PNG)
+![Data Preparation Steps](assets/Cleaning2.PNG)
