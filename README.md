@@ -41,4 +41,4 @@ The data has been sourced from various host sites:
 
 ### Preparation
 
-Beow is a steo by step process of getting the final dataset ready for modelling:
+Beow is a step by step process of getting the final dataset ready for modelling:
