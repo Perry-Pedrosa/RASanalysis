@@ -27,7 +27,7 @@ The data has been sourced from various host sites:
 [RAS](https://ras.football/) - Provided the RAS score for all data points
 [PFR](https://www.pro-football-reference.com/) - Provided data for all pro selections, draft selection indicator & position & combine results (note: although combine results wont be used in the model, they are to reference metrics that could potentially detect successful traits in athletes.)
 
-![All Pro](assets/All Pro.PNG)
+![All Pro](assets/All-Pro.PNG)
 
 ![Combine](assets/Combine.PNG)
 
