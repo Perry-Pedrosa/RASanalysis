@@ -11,11 +11,19 @@ This project objective is not to challenge the RAS model, it is to use the score
 
 *H1* - **RAS doesnt not affect the career success of an NFL Player**
 
-It is to be noted Kent has never stipulated a high score will lead to a successful career. The NFL has a lot of variables so isolating them to minimise the impact on the model(s) will be paramount.
+It is to be noted Kent has never stipulated a high score will lead to a successful career. American Football has a lot of variables so isolating them to minimise the impact on the model(s) will be paramount. However, no one has ever asked that question either and furthermore, if there is a way to detect success based on a pre draft process.
 
 ## Scope
 
-- We will be using data from 2009-2024 to ensure variety
+- We will be using data from 2009-2024 to ensure variety from multiple sources and joining them together
 - We will be only looking at the **Cornerback** position, the reason for this is that it is the most independent position in football, a Cornerbacks reliance on other team members to do their job is minimal and is the reason why the position is nicknamed *The Island*, they are alone, detached from all other players on the field.
-- An average score will be attained when preparing the data, outliers calculated by IQR and nulls will be removed.
+- An average score will be attained when preparing the data, outliers calculated by IQR and nulls will be removed. We will then use a score > than the average for our test/train data.
 - Metrics for success will be based around accolades; *all-pro selections*, *drafted*, *1st round draft pick*, *PFF coverage grade*
+- The data will be prepared in Excel Power Query and modelled in Python 3, this ensures a clean familiar way to get the data ready and a platform to evidence statistical modelling, testing and visualisations.
+
+## The Data
+
+The data has been sourced from various host sites:
+- [RAS](https://ras.football/) - Provided the RAS score for all data points
+- [PFR](https://www.pro-football-reference.com/) - Provided data for all pro selections, draft selection indicator & position & combine results (note: although combine results wont be used in the model, they are to reference metrics that could potentially detect successful traits in athletes.)
+- [PFF](https://www.pff.com/nfl/grades/position/cb) - Provided data through its paid service (PFF+) on player grading 
