@@ -28,4 +28,7 @@ The data has been sourced from various host sites:
 [PFR](https://www.pro-football-reference.com/) - Provided data for all pro selections, draft selection indicator & position & combine results (note: although combine results wont be used in the model, they are to reference metrics that could potentially detect successful traits in athletes.)
 
 ![All Pro](assets/All Pro.PNG)
+
+![Combine](assets/Combine.PNG)
+
 [PFF](https://www.pff.com/nfl/grades/position/cb) - Provided data through its paid service (PFF+) on player grading 
