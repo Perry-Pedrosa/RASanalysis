@@ -38,3 +38,7 @@ The data has been sourced from various host sites:
 [PFF](https://www.pff.com/nfl/grades/position/cb) - Provided data through its paid service (PFF+) on player grading 
 
 ![Grading](assets/Grades.PNG)
+
+### Preparation
+
+Beow is a steo by step process of getting the final dataset ready for modelling:
