@@ -15,7 +15,7 @@ It is to be noted Kent has never stipulated a high score will lead to a successf
 
 ## Scope
 
-- We will be using data from 2009-2024 to ensure variety from multiple sources and joining them together
+- We will be using data from 2009-2022 to ensure variety from multiple sources and joining them together. We are excluding 2023 due to this data being rookies and contextually tthey are at a disadvantage being in their first year in the league due to lack of playing time or "growing pains" adapting to a professional league.
 - We will be only looking at the **Cornerback** position, the reason for this is that it is the most independent position in football, a Cornerbacks reliance on other team members to do their job is minimal and is the reason why the position is nicknamed *The Island*, they are alone, detached from all other players on the field.
 - An average score will be attained when preparing the data, outliers calculated by IQR and nulls will be removed. We will then use a score > than the average for our test/train data.
 - Metrics for success will be based around accolades; *all-pro selections*, *drafted*, *1st round draft pick*, *PFF coverage grade*
@@ -44,3 +44,7 @@ The data has been sourced from various host sites:
 Beow is a visualisation of the data 'cleaning' process. Some data needs to be appended as it is stored by year so need to be combined. Data will then be merged in Power Query using the player name after some validation takes place to identify potential duplicates:
 
 ![Data Preparation Steps](assets/Cleaning2.PNG)
+
+1. As per the process analysis pipeline, the first stage is to complete all appending activities:
+
+![Data Append](assets/Append-1.png)
