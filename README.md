@@ -48,3 +48,7 @@ Beow is a visualisation of the data 'cleaning' process. Some data needs to be ap
 1. As per the process analysis pipeline, the first stage is to complete all appending activities:
 
 ![Data Append](assets/Append-1.png)
+
+2. Once appended, I had multiple entries for all players. This meant further cleansing however it did let me take my target variables and average or sum them over the whole post-appended dataset.. which is something I was going to have to perform at somepoint!
+
+3. ![grouping](assets/group_and_agg.png)
