@@ -51,4 +51,8 @@ Beow is a visualisation of the data 'cleaning' process. Some data needs to be ap
 
 2. Once appended, I had multiple entries for all players. This meant further cleansing however it did let me take my target variables and average or sum them over the whole post-appended dataset.. which is something I was going to have to perform at somepoint!
 
-3. ![grouping](assets/group_and_agg.png)
+![grouping](assets/group_and_agg.png)
+
+3. Converted all-pro text data to numerical so that it can be quantifiably used in the model.
+
+![Convert](assets/allpro.png)
