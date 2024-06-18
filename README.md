@@ -60,8 +60,12 @@ Beow is a visualisation of the data 'cleaning' process. Some data needs to be ap
 4. At this stage we are going to merge all of the data in Power query together using the name of the player, duplicates have already been addressed where needed. However, some names do not fully match across different datasets due to a number of reasons (initials i.e. AJ/A.J, affixes such as jr, sr, III or players that are referenced by nickname rather than forename) to combat this fuzzy matching is performed at a threshold of .75 (after some tinkering) to create the dataset for modelling.
 
 Once the merge is completed, decisions around exclusions will be made to ensure the dataset has variety, validity and meets general data ethics standards.
-After excluding data that was not relevent to the model the dataset was reduced from 421 to 183 datapoints. However, additional datapoints from 2023 and 2024 will be used as a true predictive model which will be revisited on the conclusion of the 2024 season.
+After excluding data that was not relevent to the model the dataset was reduced from 421 to 279 rows. However, additional datapoints from 2023 and 2024 will be used as a true predictive model which will be revisited on the conclusion of the 2024 season.
 
 5. Clean up data types to ensure compatability with Python reader when loading the data in:
 
 ![Data Type](assets/type1.png)
+
+6. Finally change the header format to ensure compatability with the modelling software and we are ready to load the data.
+
+![model_data](assets/final.png)
