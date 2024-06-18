@@ -17,7 +17,7 @@ It is to be noted Kent has never stipulated a high score will lead to a successf
 
 - We will be using data from 2009-2022 to ensure variety from multiple sources and joining them together. We are excluding 2023 due to this data being rookies and contextually tthey are at a disadvantage being in their first year in the league due to lack of playing time or "growing pains" adapting to a professional league.
 - We will be only looking at the **Cornerback** position, the reason for this is that it is the most independent position in football, a Cornerbacks reliance on other team members to do their job is minimal and is the reason why the position is nicknamed *The Island*, they are alone, detached from all other players on the field.
-- An average score will be attained when preparing the data, outliers calculated by IQR and nulls will be removed. We will then use a score > than the average for our test/train data. null or RAS below 0.1 will not be included in the final dataset.
+- An average score will be attained when preparing the data, outliers calculated by IQR and nulls will be removed. We will then use a score > than the average for our test/train data.
 - Metrics for success will be based around accolades; *all-pro selections* *, *drafted*, *1st round draft pick*, *PFF coverage grade*. * *All recognised all-pro voting [entities](https://en.wikipedia.org/wiki/All-Pro) will count, however even if all 3 entities vote that player for the year the count will be 1, not 3*
 - The data will be prepared in Excel Power Query and modelled in Python 3, this ensures a clean familiar way to get the data ready and a platform to evidence statistical modelling, testing and visualisations.
 
@@ -58,3 +58,5 @@ Beow is a visualisation of the data 'cleaning' process. Some data needs to be ap
 ![Convert](assets/allpro.png)
 
 4. At this stage we are going to merge all of the data in Power query together using the name of the player, duplicates have already been addressed where needed. However, some names do not fully match across different datasets due to a number of reasons (initials i.e. AJ/A.J, affixes such as jr, sr, III or players that are referenced by nickname rather than forename) to combat this fuzzy matching is performed at a threshold of .75 (after some tinkering) to create the dataset for modelling.
+
+Once the merge is completed, decisions around exclusions will be made to ensure the dataset has variety, validity and meets general data ethics standards.
