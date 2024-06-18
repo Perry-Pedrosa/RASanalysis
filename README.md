@@ -56,3 +56,5 @@ Beow is a visualisation of the data 'cleaning' process. Some data needs to be ap
 3. Converted all-pro text data to numerical so that it can be quantifiably used in the model.
 
 ![Convert](assets/allpro.png)
+
+4. At this stage we are going to merge all of the data in Power query together using the name of the player, duplicates have already been addressed where needed. However, some names do not fully match across different datasets due to a number of reasons (initials i.e. AJ/A.J, affixes such as jr, sr, III or players that are referenced by nickname rather than forename) to combat this fuzzy matching is performed at a threshold of .75 (after some tinkering) to create the dataset for modelling.
