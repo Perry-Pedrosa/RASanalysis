@@ -19,7 +19,7 @@ It is to be noted Kent has never stipulated a high score will lead to a successf
 - We will be only looking at the **Cornerback** position, the reason for this is that it is the most independent position in football, a Cornerbacks reliance on other team members to do their job is minimal and is the reason why the position is nicknamed *The Island*, they are alone, detached from all other players on the field.
 - An average score will be attained when preparing the data, outliers calculated by IQR and nulls will be removed. We will then use a score > than the average for our test/train data.
 - Metrics for success will be based around accolades; *all-pro selections* *, *drafted*, *1st round draft pick*, *PFF coverage grade*. * *All recognised all-pro voting [entities](https://en.wikipedia.org/wiki/All-Pro) will count, however even if all 3 entities vote that player for the year the count will be 1, not 3* as well as height, weight, speed, explosivness metrics that are all captured as part of Combine data.
-- The data will be prepared in Excel Power Query and modelled in Python 3, this ensures a clean familiar way to get the data ready and a platform to evidence statistical modelling, testing and visualisations.
+- The data will be prepared in Excel Power Query and modelled in R, this ensures a clean familiar way to get the data ready and a platform to evidence statistical modelling, testing and visualisations.
 
 ## The Data
 
@@ -62,7 +62,7 @@ Beow is a visualisation of the data 'cleaning' process. Some data needs to be ap
 Once the merge is completed, decisions around exclusions will be made to ensure the dataset has variety, validity and meets general data ethics standards.
 After excluding data that was not relevent to the model the dataset was reduced from 421 to 279 rows. However, additional datapoints from 2023 and 2024 will be used as a true predictive model which will be revisited on the conclusion of the 2024 season.
 
-5. Clean up data types to ensure compatability with Python reader when loading the data in:
+5. Clean up data types to ensure compatability with R reader when loading the data in:
 
 ![Data Type](assets/type1.png)
 
