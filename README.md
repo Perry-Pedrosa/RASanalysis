@@ -13,7 +13,7 @@ This project objective is not to challenge the RAS model, it is to use the score
 
 It is to be noted Kent has never stipulated a high score will lead to a successful career. American Football has a lot of variables so isolating them to minimise the impact on the model(s) will be paramount. However, no one has ever asked that question either and furthermore, if there is a way to detect success based on a pre draft process.
 
-## Scope
+### Scope
 
 - We will be using data from 2009-2022 to ensure variety from multiple sources and joining them together. We are excluding 2023 due to this data being rookies and contextually tthey are at a disadvantage being in their first year in the league due to lack of playing time or "growing pains" adapting to a professional league.
 - We will be only looking at the **Cornerback** position, the reason for this is that it is the most independent position in football, a Cornerbacks reliance on other team members to do their job is minimal and is the reason why the position is nicknamed *The Island*, they are alone, detached from all other players on the field.
