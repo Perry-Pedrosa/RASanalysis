@@ -7,12 +7,15 @@ Kent tells the story of how he came up with the system which provides a lot of c
 
 If nothing else, I hope that you can at least take away from this how a non NFL affiliated individual, driven by his passion for data and football created a model that made NFL scouting a lot easier and whether he knows it or not, changed the landscape for "pre draft" analysts for years to come.
 
+### Glossary
+
 ## Project Background
 This project objective is not to challenge the RAS model, it is to use the score as a coefficiant to both understand the correlation between a score and success. Additionally we will use that to calculate the probability that a high score will lead to a successful career using the basis of this hypothesis:
 
-*H0* - **A RAS of *x* will lead to a successful NFL career**
+*H0* - **RAS doesnt not affect the career success of an NFL Player**
 
-*H1* - **RAS doesnt not affect the career success of an NFL Player**
+*H1* - **A RAS of *x* will lead to a successful NFL career**
+
 
 It is to be noted Kent has never stipulated a high score will lead to a successful career. American Football has a lot of variables so isolating them to minimise the impact on the model(s) will be paramount. However, no one has ever asked that question either and furthermore, if there is a way to detect success based on a pre draft process.
 
