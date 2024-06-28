@@ -75,3 +75,6 @@ After excluding data that was not relevent to the model the dataset was reduced 
 6. Finally change the header format to ensure compatability with the modelling software and we are ready to load the data.
 
 ![model_data](assets/final.png)
+
+
+# References
