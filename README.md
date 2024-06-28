@@ -93,8 +93,9 @@ After excluding data that was not relevent to the model the dataset was reduced 
 
 7. The final element is to create a coefficiant to use in our model. We have multiple variables to use but none are consistant enough across the dataset to create a fair model. The proposition is to create a tiering system using our variables.
 
-8. How this will be calculated, where averages are calculated, we will use the dataset itself to find a base value:
+8. How this will be calculated, where averages are calculated, we will use the dataset itself to find a base value. In the case of [PAFF Grading Scale](https://www.pff.com/news/pff-fc-all-you-need-to-know-about-how-grades-are-calculated) we will use > 75 which is between above average and good in terms of an average career score.:
 
+![PFF Grading Scale](assets/grading_scale.png)
 - RAS > 6.59 = 1, else 0
 - player_drafted IS TRUE = 1, else 0
 - 1st_Round IS TRUE =1, else 0
