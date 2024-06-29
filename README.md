@@ -106,6 +106,9 @@ After excluding data that was not relevent to the model the dataset was reduced 
 - Zone_Grade > 75 = 1, else 0
 
 ![scaling](assets/scaling.PNG)
+
+Finally, the fields are added together to get a final score to use as a coefficiant (shown to the right) and then all unneeded columns removed.
+![final scale](assets/final_scale.PNG)
 # References
 
 PFF. (n.d.). PFF Player Grades. [online] Available at: https://www.pff.com/grades.[Accessed 28th Jun. 2024].
