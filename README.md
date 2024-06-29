@@ -107,7 +107,7 @@ After excluding data that was not relevent to the model the dataset was reduced 
 
 ![scaling](assets/scaling.PNG)
 
-Finally, the fields are added together to get a final score to use as a coefficiant (shown to the right) and then all unneeded columns removed.
+Finally, the fields are added together to get a final score to use as a coefficiant and then all unneeded columns removed.
 ![final scale](assets/final_scale.PNG)
 # References
 
