@@ -101,9 +101,11 @@ After excluding data that was not relevent to the model the dataset was reduced 
 - 1st_Round IS TRUE =1, else 0
 - Total_Interception_value < 4 = 1, else 0
 - Superbowl_wins > 0 = 1, else 0
-- All_Pro_Selection_Count > 0 = 1, > 1 = 2, > 2 = 3, else 0
+- All_Pro_Selection_Count > 0 = 1, > 1 = 2, > 2 = 3, else 0 (example below)
 - Average_Coverage_Grade_Man > 75 = 1, else 0
 - Zone_Grade > 75 = 1, else 0
+
+![scaling](assets/scaling.PNG)
 # References
 
 PFF. (n.d.). PFF Player Grades. [online] Available at: https://www.pff.com/grades.[Accessed 28th Jun. 2024].
