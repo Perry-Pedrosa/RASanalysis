@@ -112,6 +112,14 @@ Finally, the fields are added together to get a final score to use as a dependen
 
 ## Modelling
 
+2 models will be built:
+
+- Simple Regression - Analysing the relationship between RAS (independent variable) and composite grade (dependent variable
+- Multiple Regression - Comparing composite grade (dependent variables) with multiple indepdendent variables that suit the model based on correlating them against eachother
+
+### Simple Regression
+
+
 
 # References
 
