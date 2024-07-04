@@ -91,7 +91,7 @@ After excluding data that was not relevent to the model the dataset was reduced 
 
 ![model_data](assets/final.png)
 
-7. The final element is to create a coefficiant to use in our model. We have multiple variables to use but none are consistant enough across the dataset to create a fair model. The proposition is to create a tiering system using our variables.
+7. The final element is to create a composite grade to use as a dependent variable in our model. We have multiple variables to use but none are consistant enough across the dataset to create a fair model. The proposition is to create a tiering system using our variables.
 
 8. How this will be calculated, where averages are calculated, we will use the dataset itself to find a base value. In the case of [PFF Grading Scale](https://www.pff.com/news/pff-fc-all-you-need-to-know-about-how-grades-are-calculated) we will use > 75 which is between above average and good in terms of an average career score.:
 
@@ -107,8 +107,12 @@ After excluding data that was not relevent to the model the dataset was reduced 
 
 ![scaling](assets/scaling.PNG)
 
-Finally, the fields are added together to get a final score to use as a coefficiant and then all unneeded columns removed.
+Finally, the fields are added together to get a final score to use as a dependent variable and then all unneeded columns removed.
 ![final scale](assets/final_scale.PNG)
+
+## Modelling
+
+
 # References
 
 PFF. (n.d.). PFF Player Grades. [online] Available at: https://www.pff.com/grades.[Accessed 28th Jun. 2024].
