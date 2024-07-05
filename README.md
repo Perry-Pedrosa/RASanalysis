@@ -150,21 +150,25 @@ covariance matrix (HCCM) to further determine reliability.
 `RAS         -0.003387588  0.0006380138`
 
 **Coefficient estimates**
+
 `intercept_estimate <- 0.24246`
 
 `RAS_estimate <- 0.28627 `
 
 **Robust standard errors**
+
 `robust_se_intercept <- sqrt(0.020852754)`
 
 `robust_se_RAS <- sqrt(0.0006380138)`
 
 **Calculate t-values**
+
 `t_value_intercept <- intercept_estimate / robust_se_intercept`
 
 `t_value_RAS <- RAS_estimate / robust_se_RAS`
 
 **Print t-values**
+
 `t_value_intercept [1] 1.67903`
 
 `t_value_RAS [1] 11.33342`
