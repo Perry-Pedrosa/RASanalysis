@@ -130,6 +130,8 @@ Multiple R-squared (0.31135) - This tells us that 31% of the composite grade can
 
 p-value (<2.2e-16) - the value shows that the model is statistically sifnificant, and that RAS significantly predicts the composite grade, a F-Statistic (126.5) shows a substantial significance. However, it would need to be compared to models of similar context with varying degrees of freedom to truly be evaluated.
 
+Based on the above, **we cannot reject *H1* as there is evidence of RAS being a reliable predictor**. However, testing against other variables may give us more of a full picture.
+
 ![rVf](assets/slr_residuals.PNG)
 ![rVl](assets/slr_residvleverage.PNG)
 ![qq](assets/slr_qq.PNG)
@@ -175,9 +177,12 @@ covariance matrix (HCCM) to further determine reliability.
 
 The robust standard errors provided by the HC3 method gives us reliable estimates even in the presence of heteroscediscity and the t values determine RAS as a reliable variable in the model. The composite grade significance is low, however that can be contextually justified due to its manual creation.
 
+
 ### Multiple Regression 
 
-As mentioned before due to the non linearity of the data, it is advisable we test for multicollinearity by understanding the correlation between the independent variables
+As mentioned before due to the non linearity of the data, it is advisable we test for multicollinearity by understanding the correlation between the independent variables, to do this we creating a correlation matrix and visualised it in a heatmap.
+
+![heatmap](assets/mlr_heatmap.PNG)
 # References
 
 Howland, F. and Barreto, H. eds., (2005). The Gauss–Markov Theorem. [online] Cambridge University Press. Available at: https://www.cambridge.org/core/books/abs/introductory-econometrics/gaussmarkov-theorem/704ECAC688A098805F6647E9D7B1F0AE [Accessed 5 Jul. 2024]. *The Gauss–Markov theorem also works in reverse: when the data generating process does not follow the classical econometric model, ordinary least squares is typically no longer the preferred estimator.*
