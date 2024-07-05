@@ -138,12 +138,12 @@ p-value (<2.2e-16) - the value shows that the model is statistically sifnificant
 The residual standard error (1.041) is reasobaly close to normality, however the deviations evidence a clear non-linear distribution. Although there doesnt seem to anything too critical in the results, the Scale Location shows potential of heteroscedasticity (varying variance) which will be accounted for by checking for multicollinearity (high correlation) between the independent variables prior to performing multiple regression testing. Additionally we will evaluate the results of a heteroscedasticity consistent
 covariance matrix (HCCM) to further determine reliability.
 
-`{r}
-model_hccm <- hccm(model_lm, type = "hc3")
-print(model_hccm)
-            (Intercept)           RAS
-(Intercept)  0.020852754 -0.0033875882
-RAS         -0.003387588  0.0006380138
+
+`model_hccm <- hccm(model_lm, type = "hc3")`
+`print(model_hccm)`
+            `(Intercept)           RAS`
+`(Intercept)  0.020852754 -0.0033875882`
+`RAS         -0.003387588  0.0006380138`
 
 **Coefficient estimates**
 intercept_estimate <- 0.24246
