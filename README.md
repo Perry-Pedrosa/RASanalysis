@@ -132,10 +132,46 @@ p-value (<2.2e-16) - the value shows that the model is statistically sifnificant
 
 ![rVf](assets/slr_residuals.PNG)
 ![rVl](assets/slr_residvleverage.PNG)
+![qq](assets/slr_qq.PNG)
+![scaleloc](assets/slr_scalelocation.PNG)
+
+The residual standard error (1.041) is reasobaly close to normality, however the deviations evidence a clear non-linear distribution. Although there doesnt seem to anything too critical in the results, the Scale Location shows potential of heteroscedasticity (varying variance) which will be accounted for by checking for multicollinearity (high correlation) between the independent variables prior to performing multiple regression testing. Additionally we will evaluate the results of a heteroscedasticity consistent
+covariance matrix (HCCM) to further determine reliability.
+
+`{r}
+model_hccm <- hccm(model_lm, type = "hc3")
+print(model_hccm)
+            (Intercept)           RAS
+(Intercept)  0.020852754 -0.0033875882
+RAS         -0.003387588  0.0006380138
+
+# Coefficient estimates
+intercept_estimate <- 0.24246
+RAS_estimate <- 0.28627 
+
+# Robust standard errors
+robust_se_intercept <- sqrt(0.020852754)
+robust_se_RAS <- sqrt(0.0006380138)
+
+# Calculate t-values
+t_value_intercept <- intercept_estimate / robust_se_intercept
+t_value_RAS <- RAS_estimate / robust_se_RAS
+
+# Print t-values
+t_value_intercept
+t_value_RAS
+
+
+[1] 1.67903
+[1] 11.33342
+`
+
+
 # References
 
 Howland, F. and Barreto, H. eds., (2005). The Gauss–Markov Theorem. [online] Cambridge University Press. Available at: https://www.cambridge.org/core/books/abs/introductory-econometrics/gaussmarkov-theorem/704ECAC688A098805F6647E9D7B1F0AE [Accessed 5 Jul. 2024]. *The Gauss–Markov theorem also works in reverse: when the data generating process does not follow the classical econometric model, ordinary least squares is typically no longer the preferred estimator.*
 
+Long, J.S. and Ervin, L.H. (2000). Using Heteroscedasticity Consistent Standard Errors in the Linear Regression Model. The American Statistician, 54(3), pp.217–224. doi:https://doi.org/10.2307/2685594. [Accessed 5 Jul. 2024] *If the sample is less than 250, the form of HCCM known as HC3 should be used; when samples are 500 or larger, other versions of the HCCM can be used. The superiority of HC3 over HC2 lies in its better properties in the most extreme cases of heteroscedasticity.*
 
 ‌‌NFL.com. (n.d.). The high-wire life of an NFL cornerback. [online] Available at: https://www.nfl.com/news/the-high-wire-life-of-an-nfl-cornerback[Accessed 28 Jun. 2024]. *It's why the position is nicknamed The Island. Detached from 20 other players on the field, the cornerback knows millions of eyes will fall on him when quarterbacks launch the deep ball -- and in the case of touchdowns, many of those looks will turn to an angry glare.*
 
