@@ -114,14 +114,30 @@ Finally, the fields are added together to get a final score to use as a dependen
 
 2 models will be built:
 
-- Simple Regression - Analysing the relationship between RAS (independent variable) and composite grade (dependent variable
+- Simple Regression - Analysing the relationship between RAS (independent variable) and composite grade (dependent variable)
 - Multiple Regression - Comparing composite grade (dependent variables) with multiple indepdendent variables that suit the model based on correlating them against eachother
+
+It is to be noted and accepted that the dependent variable is not normally distributed, this will not change our approach and following the Gauss-Markov Theorem, will need to consider residuals even moreso than normal when evaluating our model.
 
 ### Simple Regression
 
+![Simple Regression Plot](assets/slr_correlation.PNG) 
 
+At a glance, there is no stong correlation between RAS and the composite grade, showing a concentration of points at the end of both axis.
+### Evaluation
 
+Multiple R-squared (0.31135) - This tells us that 31% of the composite grade can be explained by RAS. The adjusted R-squared (0.311) is slightly lower, meaning that when the model is accounting for the number of predictors, its significance is slightly reduced.
+
+p-value (<2.2e-16) - the value shows that the model is statistically sifnificant, and that RAS significantly predicts the composite grade, a F-Statistic (126.5) shows a substantial significance. However, it would need to be compared to models of similar context with varying degrees of freedom to truly be evaluated.
+
+![rVf](assets/slr_residuals.PNG)
+![rVl](assets/slr_residvleverage.PNG)
 # References
+
+Howland, F. and Barreto, H. eds., (2005). The Gauss–Markov Theorem. [online] Cambridge University Press. Available at: https://www.cambridge.org/core/books/abs/introductory-econometrics/gaussmarkov-theorem/704ECAC688A098805F6647E9D7B1F0AE [Accessed 5 Jul. 2024]. *The Gauss–Markov theorem also works in reverse: when the data generating process does not follow the classical econometric model, ordinary least squares is typically no longer the preferred estimator.*
+
+
+‌‌NFL.com. (n.d.). The high-wire life of an NFL cornerback. [online] Available at: https://www.nfl.com/news/the-high-wire-life-of-an-nfl-cornerback[Accessed 28 Jun. 2024]. *It's why the position is nicknamed The Island. Detached from 20 other players on the field, the cornerback knows millions of eyes will fall on him when quarterbacks launch the deep ball -- and in the case of touchdowns, many of those looks will turn to an angry glare.*
 
 PFF. (n.d.). PFF Player Grades. [online] Available at: https://www.pff.com/grades.[Accessed 28th Jun. 2024].
 
@@ -129,6 +145,7 @@ PFF. (n.d.). PFF Player Grades. [online] Available at: https://www.pff.com/grade
 
 RAS. (n.d.). RASRelative Athletic Scores grade a player’s measurements on a 0 to 10 scale compared to their peer group. [online] Available at: https://ras.football/[Accessed 28 Jun. 2024].
 
-‌NFL.com. (n.d.). The high-wire life of an NFL cornerback. [online] Available at: https://www.nfl.com/news/the-high-wire-life-of-an-nfl-cornerback[Accessed 28 Jun. 2024].
+
+
 
 ‌‌
