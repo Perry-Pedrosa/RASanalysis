@@ -180,7 +180,7 @@ The robust standard errors provided by the HC3 method gives us reliable estimate
 
 ### Multiple Regression 
 
-As mentioned before due to the non linearity of the data, it is advisable we test for multicollinearity by understanding the correlation between the independent variables, to do this we creating a correlation matrix and visualised it in a heatmap.
+As mentioned before due to the non linearity of the data, it is advisable we test for multicollinearity by understanding the correlation between the independent variables, to do this we creating a correlation matrix to observe the correlation coefficiant and visualised it in a heatmap.
 
 ![heatmap](assets/mlr_heatmap.PNG)
 # References
