@@ -145,23 +145,21 @@ print(model_hccm)
 (Intercept)  0.020852754 -0.0033875882
 RAS         -0.003387588  0.0006380138
 
-# Coefficient estimates
+**Coefficient estimates**
 intercept_estimate <- 0.24246
 RAS_estimate <- 0.28627 
 
-# Robust standard errors
+**Robust standard errors**
 robust_se_intercept <- sqrt(0.020852754)
 robust_se_RAS <- sqrt(0.0006380138)
 
-# Calculate t-values
+**Calculate t-values**
 t_value_intercept <- intercept_estimate / robust_se_intercept
 t_value_RAS <- RAS_estimate / robust_se_RAS
 
-# Print t-values
+**Print t-values**
 t_value_intercept
 t_value_RAS
-
-
 [1] 1.67903
 [1] 11.33342
 `
