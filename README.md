@@ -183,6 +183,8 @@ The robust standard errors provided by the HC3 method gives us reliable estimate
 As mentioned before due to the non linearity of the data, it is advisable we test for multicollinearity by understanding the correlation between the independent variables, to do this we creating a correlation matrix to observe the correlation coefficiant and visualised it in a heatmap.
 
 ![heatmap](assets/mlr_heatmap.PNG)
+
+As seen on the heatmap, the closest areas to 1 are seen between coverage types 'Man' and 'Zone', which is expected.. they are the same exercise performed in a different way. For now, we will keep both in but repeat the regression model a 2nd time, removing Zone as contextully is is the more dependent on "on field variables" out of the two. We will then compare the models to decide which is best.
 # References
 
 Howland, F. and Barreto, H. eds., (2005). The Gauss–Markov Theorem. [online] Cambridge University Press. Available at: https://www.cambridge.org/core/books/abs/introductory-econometrics/gaussmarkov-theorem/704ECAC688A098805F6647E9D7B1F0AE [Accessed 5 Jul. 2024]. *The Gauss–Markov theorem also works in reverse: when the data generating process does not follow the classical econometric model, ordinary least squares is typically no longer the preferred estimator.*
@@ -196,6 +198,8 @@ PFF. (n.d.). PFF Player Grades. [online] Available at: https://www.pff.com/grade
 ‌RAS. (2017). RASAbout Me. [online] Available at: https://ras.football/about/ [Accessed 28 Jun. 2024].
 
 RAS. (n.d.). RASRelative Athletic Scores grade a player’s measurements on a 0 to 10 scale compared to their peer group. [online] Available at: https://ras.football/[Accessed 28 Jun. 2024].
+
+Tranmer, M., Murphy, J., Elliot, M. and Pampaka, M. (2020). Multiple Linear Regression (2 nd Edition). [online] Available at: https://hummedia.manchester.ac.uk/institutes/cmist/archive-publications/working-papers/2020/multiple-linear-regression.pdf. [Accessed 5 Jul. 2024] *What is meant by a “high level of correlation” is somewhat subjective, here we apply a rule of thumb that any correlation over |0.7| is considered high. Where a pair of variables are highly correlated, it may be worth considering removing one of them from the analysis.*
 
 
 
