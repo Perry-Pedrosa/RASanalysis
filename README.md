@@ -1,5 +1,8 @@
 # Does The RAS Metric System Predict Success In The NFL?
 
+[Analysis of RAS Metrics v NFL Proficiancy & Success](https://github.com/Perry-Pedrosa/RASanalysis)
+![Combine](assets/1209327655.jpg.0.jpg)
+
 ## Introduction
 
 In 2013, Kent Lee Platte created a model to convert a group of metrics into a scoring system for prospective NFL players. This would come to be known as [RAS](https://ras.football/) 
