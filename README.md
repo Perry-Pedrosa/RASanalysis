@@ -195,6 +195,14 @@ As seen on the heatmap, the closest areas to 1 are seen between coverage types '
 ![model2stat](assets/mlmstat2.PNG)
 ![model3](assets/mlm3.PNG)
 ![model3stat](assets/mlmstat3.PNG)
+
+As observed when the model significance is compared against one another, we can see that model 3 is far more sigficicant in terms of using variables to predict success, of which RAS is one! To validate the models we evaluated the fit by using AIC & BIC (the latter to account for the difference in independent variables across the models.) and thus evaluating for model seledction.
+
+![AIC&BIC](assets/AIC&BIC.PNG)
+
+
+
+As observed, model 3
 # References
 
 Howland, F. and Barreto, H. eds., (2005). The Gauss–Markov Theorem. [online] Cambridge University Press. Available at: https://www.cambridge.org/core/books/abs/introductory-econometrics/gaussmarkov-theorem/704ECAC688A098805F6647E9D7B1F0AE [Accessed 5 Jul. 2024]. *The Gauss–Markov theorem also works in reverse: when the data generating process does not follow the classical econometric model, ordinary least squares is typically no longer the preferred estimator.*
