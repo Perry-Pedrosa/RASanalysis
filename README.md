@@ -38,7 +38,7 @@ It is to be noted Kent has never stipulated a high score will lead to a successf
 
 ### Scope
 
-- We will be using data from 2009-2022 to ensure variety from multiple sources and joining them together. We are excluding 2023 due to this data being rookies and contextually they are at a disadvantage being in their first year in the league due to lack of playing time or "growing pains" adapting to a professional league.
+- We will be using data from 2014-2022 to ensure variety from multiple sources and joining them together. We are excluding 2023 due to this data being rookies and contextually they are at a disadvantage being in their first year in the league due to lack of playing time or "growing pains" adapting to a professional league.
 - We will be only looking at the **Cornerback** position, the reason for this is that it is the most independent position in football, a Cornerbacks reliance on other team members to do their job is minimal and is the reason why the position is nicknamed *The Island*, they are alone, detached from all other players on the field.
 - Metrics for success will be based around accolades; *all-pro selections* *, *drafted*, *1st round draft pick*, *PFF coverage grade*. * *All recognised all-pro voting [entities](https://en.wikipedia.org/wiki/All-Pro) will count. Height, weight, speed, explosivness metrics that are all captured as part of Combine data.
 - The data will be prepared in Excel Power Query and modelled in R, this ensures a clean familiar way to get the data ready and a platform to evidence statistical modelling, testing and visualisations.
