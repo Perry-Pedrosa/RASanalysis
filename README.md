@@ -1,7 +1,6 @@
 # Does The RAS Metric System Predict Success In The NFL?
 
-[Analysis of RAS Metrics v NFL Proficiancy & Success](https://github.com/Perry-Pedrosa/RASanalysis)
-![Combine](assets/1209327655.jpg.0.jpg)
+![Quinyon Mitchell running 40 yard dash at '24 combine](assets/Combine.jfif)
 
 ## Introduction
 
