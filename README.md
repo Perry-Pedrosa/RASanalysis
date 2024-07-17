@@ -118,6 +118,8 @@ Finally, the fields are added together to get a final score to use as a dependen
 
 It is to be noted and accepted that the dependent variable is not normally distributed, this will not change our approach and following the Gauss-Markov Theorem, will need to consider residuals even moreso than normal when evaluating our model.
 
+![Distribution](assets/Hist.PNG)
+
 ### Simple Regression
 
 ![Simple Regression Plot](assets/slr_correlation.PNG) 
@@ -184,6 +186,8 @@ As mentioned before due to the non linearity of the data, it is advisable we tes
 ![heatmap](assets/mlr_heatmap.PNG)
 
 As seen on the heatmap, the closest areas to 1 are seen between coverage types 'Man' and 'Zone', which is expected.. they are the same exercise performed in a different way. For now, we will keep both in but repeat the regression model a 2nd time, removing Zone as contextully is is the more dependent on "on field variables" out of the two. We will then compare the models to decide which is best.
+
+
 # References
 
 Howland, F. and Barreto, H. eds., (2005). The Gauss–Markov Theorem. [online] Cambridge University Press. Available at: https://www.cambridge.org/core/books/abs/introductory-econometrics/gaussmarkov-theorem/704ECAC688A098805F6647E9D7B1F0AE [Accessed 5 Jul. 2024]. *The Gauss–Markov theorem also works in reverse: when the data generating process does not follow the classical econometric model, ordinary least squares is typically no longer the preferred estimator.*
