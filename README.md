@@ -196,13 +196,34 @@ As seen on the heatmap, the closest areas to 1 are seen between coverage types '
 ![model3](assets/mlm3.PNG)
 ![model3stat](assets/mlmstat3.PNG)
 
-As observed when the model significance is compared against one another, we can see that model 3 is far more sigficicant in terms of using variables to predict success, of which RAS is one! To validate the models we evaluated the fit by using AIC & BIC (the latter to account for the difference in independent variables across the models.) and thus evaluating for model seledction.
+As observed when the model significance is compared against one another, we can see that model 3 is far more sigficicant in terms of using variables to predict success, of which RAS is one! To validate the models we evaluated the fit by using AIC & BIC (the latter to account for the difference in independent variables across the models.) and thus evaluating for model selection.
 
 ![AIC&BIC](assets/AIC&BIC.PNG)
 
 
 
-As observed, model 3
+As observed, model 3 is the most appropriate fit. Additionally, we can deduce from the statistics that RAS along with Interceptions are the strongest predictors and as such **we cannot reject the alternate hypothesis**.
+
+# Executive Summary
+
+![RASxCareer](assets/lmfinal.PNG)
+
+We set out to find out whether a high RAS score indicates a successful career in the NFL. We used both simple and multiple regression, using variables across 10 years from player statistics, body measurements and combine workouts results and created a composite grading scale to use as a dependent variable. We then tested these models against each other to understand the most significant predictors when it came to a successful NFL career  and we found that RAS holds a moderate to strong correlation with NFL success. Based on the other significant variables, theoretically success as an NFL cornerback can be determined by a player who:
+
+- Has a high RAS score
+- Has made a lot of interceptions in their career (including high school or college)
+- Excels at the broad jump at the NFL combine
+- Excels in Zone coverage
+
+Understanding this, may very well help scouts hone in on specific traits that will make a succcessful, hopfully Superbowl winning cornerback.
+
+# Recommendations
+
+The next step in this work will be to evaluate players drafted since 2023 and predictive analysis based on the results we have attained to assess which players will have successful careers. This workstream will be publicised and invite peers to review to improve future iterations.
+
+Work will be done in the near future to frame the players who meet the threshold of success based on the model and their progress tracked on a yearly basis to create extra valaidity for the methods used.
+
+
 # References
 
 Howland, F. and Barreto, H. eds., (2005). The Gauss–Markov Theorem. [online] Cambridge University Press. Available at: https://www.cambridge.org/core/books/abs/introductory-econometrics/gaussmarkov-theorem/704ECAC688A098805F6647E9D7B1F0AE [Accessed 5 Jul. 2024]. *The Gauss–Markov theorem also works in reverse: when the data generating process does not follow the classical econometric model, ordinary least squares is typically no longer the preferred estimator.*
@@ -211,11 +232,15 @@ Long, J.S. and Ervin, L.H. (2000). Using Heteroscedasticity Consistent Standard 
 
 ‌‌NFL.com. (n.d.). The high-wire life of an NFL cornerback. [online] Available at: https://www.nfl.com/news/the-high-wire-life-of-an-nfl-cornerback[Accessed 28 Jun. 2024]. *It's why the position is nicknamed The Island. Detached from 20 other players on the field, the cornerback knows millions of eyes will fall on him when quarterbacks launch the deep ball -- and in the case of touchdowns, many of those looks will turn to an angry glare.*
 
+Parzen, E., Tanabe, K. and Kitagawa, G. (1997). Selected Papers of Hirotugu Akaike. New York, NY: Springer New York. pp 275–280 https://doi.org/10.1007/978-1-4612-1694-0_21 *Akaike introduced an information criterion which is by definition (1.1) AIC=( -2) log (maximum likelihood) +2(number of parameters)  as an estimate of minus twice the expected log likelihood of the model  whose parameters are determined by the method of maximum likelihood. Here log denotes the natural logarithm.*
+
 PFF. (n.d.). PFF Player Grades. [online] Available at: https://www.pff.com/grades.[Accessed 28th Jun. 2024].
 
 ‌RAS. (2017). RASAbout Me. [online] Available at: https://ras.football/about/ [Accessed 28 Jun. 2024].
 
 RAS. (n.d.). RASRelative Athletic Scores grade a player’s measurements on a 0 to 10 scale compared to their peer group. [online] Available at: https://ras.football/[Accessed 28 Jun. 2024].
+
+Sadanori Konishi and G Kitagawa (2008). Information criteria and statistical modeling. New York: Springer. (Volume 16, Issue 1, May 1981, Pages 3-14) *The basic idea underlying the use of an information criterion, called AIC, for model selection is the maximization of the expected log likelihood of a model determined by the method of maximum likelihood [Akaike (1973, 1974)].*
 
 Tranmer, M., Murphy, J., Elliot, M. and Pampaka, M. (2020). Multiple Linear Regression (2 nd Edition). [online] Available at: https://hummedia.manchester.ac.uk/institutes/cmist/archive-publications/working-papers/2020/multiple-linear-regression.pdf. [Accessed 5 Jul. 2024] *What is meant by a “high level of correlation” is somewhat subjective, here we apply a rule of thumb that any correlation over |0.7| is considered high. Where a pair of variables are highly correlated, it may be worth considering removing one of them from the analysis.*
 
