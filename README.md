@@ -226,6 +226,7 @@ The next step in this work will be to evaluate players drafted since 2023 and pr
 
 Work will be done in the near future to frame the players who meet the threshold of success based on the model and their progress tracked on a yearly basis to create extra valaidity for the methods used.
 
+It is important to remember there are contextual exceptions to this; Ahmad "Sauce" Gardner, drafted in 2022 was excluded from this model as he did not have a qualifying RAS score. However, he was drafted in the 1st round and has 2 All Pro selections already in his career, but only 2 interceptions across those two years and thats because he is so good, opposing Quarterbacks will not throw his way. There are many nuances to the game of American Football and its what keeps it fresh, fun and keep analysts guessing.
 
 # References
 
