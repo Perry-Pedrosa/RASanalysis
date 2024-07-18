@@ -20,7 +20,9 @@ PFR - Pro Football Reference
 
 Cornerback - A position in American Football 
 
-Man / Zone - Defines types of cornerback play types. Man describes when a player follows another player wherever they go. Zone describes a cornerback protecting a specific area of the field.
+Man / Zone - Defines types of cornerback play types. 
+
+![Man](assets/man.png) ![Zone](assets/Zone2.PNG)
 
 All-Pro - NFL's 'Team of the Year'
 
