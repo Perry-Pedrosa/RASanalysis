@@ -25,6 +25,18 @@ All-Pro - NFL's 'Team of the Year'
 
 Combine - An event draftees get tested in specific athletic exercises
 
+# Executive Summary
+
+![RASxCareer](assets/lmfinal.PNG)
+
+We set out to find out whether a high RAS score indicates a successful career in the NFL. We used both simple and multiple regression, using variables across 10 years from player statistics, body measurements and combine workouts results and created a composite grading scale to use as a dependent variable. We then tested these models against each other to understand the most significant predictors when it came to a successful NFL career  and we found that RAS holds a moderate to strong correlation with NFL success. Based on the other significant variables, theoretically success as an NFL cornerback can be determined by a player who:
+
+- Has a high RAS score
+- Has made a lot of interceptions in their career (including high school or college)
+- Excels at the broad jump at the NFL combine
+- Excels in Zone coverage
+
+Understanding this, may very well help scouts hone in on specific traits that will make a succcessful, hopfully Superbowl winning cornerback.
 
 ## Project Background
 This objective is not to challenge the RAS model, it is to use the score as a variable to understand the correlation between a score and success and answer the following hypothesis.
@@ -206,18 +218,7 @@ As observed when the model significance is compared against one another, we can 
 
 As observed, model 3 is the most appropriate fit. Additionally, we can deduce from the statistics that RAS along with Interceptions are the strongest predictors and as such **we cannot reject the alternate hypothesis**.
 
-# Executive Summary
 
-![RASxCareer](assets/lmfinal.PNG)
-
-We set out to find out whether a high RAS score indicates a successful career in the NFL. We used both simple and multiple regression, using variables across 10 years from player statistics, body measurements and combine workouts results and created a composite grading scale to use as a dependent variable. We then tested these models against each other to understand the most significant predictors when it came to a successful NFL career  and we found that RAS holds a moderate to strong correlation with NFL success. Based on the other significant variables, theoretically success as an NFL cornerback can be determined by a player who:
-
-- Has a high RAS score
-- Has made a lot of interceptions in their career (including high school or college)
-- Excels at the broad jump at the NFL combine
-- Excels in Zone coverage
-
-Understanding this, may very well help scouts hone in on specific traits that will make a succcessful, hopfully Superbowl winning cornerback.
 
 # Recommendations
 
