@@ -36,7 +36,7 @@ We set out to find out whether a high RAS score indicates a successful career in
 - Excels at the broad jump at the NFL combine
 - Excels in Zone coverage
 
-Understanding this, may very well help scouts hone in on specific traits that will make a succcessful, hopfully Superbowl winning cornerback.
+Understanding this, may very well help scouts hone in on specific traits that will make a successful, hopfully Superbowl winning cornerback.
 
 ## Project Background
 This objective is not to challenge the RAS model, it is to use the score as a variable to understand the correlation between a score and success and answer the following hypothesis.
