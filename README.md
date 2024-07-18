@@ -218,7 +218,7 @@ As observed when the model significance is compared against one another, we can 
 
 As observed, model 3 is the most appropriate fit. Additionally, we can deduce from the statistics that RAS along with Interceptions are the strongest predictors and as such **we cannot reject the alternate hypothesis**.
 
-
+![Sauce Gardner](assets/cgv22122211789_nyj_jac.jpg)
 
 # Recommendations
 
