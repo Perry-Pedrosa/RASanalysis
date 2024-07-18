@@ -218,15 +218,15 @@ As observed when the model significance is compared against one another, we can 
 
 As observed, model 3 is the most appropriate fit. Additionally, we can deduce from the statistics that RAS along with Interceptions are the strongest predictors and as such **we cannot reject the alternate hypothesis**.
 
-![Sauce Gardner](assets/cgv22122211789_nyj_jac.jpg)
-
 # Recommendations
 
 The next step in this work will be to evaluate players drafted since 2023 and predictive analysis based on the results we have attained to assess which players will have successful careers. This workstream will be publicised and invite peers to review to improve future iterations.
 
 Work will be done in the near future to frame the players who meet the threshold of success based on the model and their progress tracked on a yearly basis to create extra valaidity for the methods used.
 
-It is important to remember there are contextual exceptions to this; Ahmad "Sauce" Gardner, drafted in 2022 was excluded from this model as he did not have a qualifying RAS score. However, he was drafted in the 1st round and has 2 All Pro selections already in his career, but only 2 interceptions across those two years and thats because he is so good, opposing Quarterbacks will not throw his way. There are many nuances to the game of American Football and its what keeps it fresh, fun and keep analysts guessing.
+It is important to remember there are contextual exceptions to this; Ahmad "Sauce" Gardner (pictured below), drafted in 2022 was excluded from this model as he did not have a qualifying RAS score. However, he was drafted in the 1st round and has 2 All Pro selections already in his career, but only 2 interceptions across those two years and thats because he is so good, opposing Quarterbacks will not throw his way. There are many nuances to the game of American Football and its what keeps it fresh, fun and keep analysts guessing.
+
+![Sauce Gardner](assets/cgv22122211789_nyj_jac.jpg)
 
 # References
 
