@@ -148,7 +148,7 @@ Multiple R-squared (0.31135) - This tells us that 31% of the composite grade can
 
 p-value (<2.2e-16) - the value shows that the model is statistically significant, and that RAS significantly predicts the composite grade, a F-Statistic (126.5) shows a substantial significance. However, it would need to be compared to models of similar context with varying degrees of freedom to truly be evaluated.
 
-Based on the above, **we cannot reject *H1* as there is evidence of RAS being a reliable predictor**. However, testing against other variables may give us more of a full picture.
+So although at a glance we did not see a strong relationship between the variables, based on the above, **we cannot reject *H1* as there is evidence of RAS being a reliable predictor**. However, testing against other variables may give us more of a full picture.
 
 ![rVf](assets/slr_residuals.PNG)
 ![rVl](assets/slr_residvleverage.PNG)
