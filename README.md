@@ -244,11 +244,11 @@ Long, J.S. and Ervin, L.H. (2000). Using Heteroscedasticity Consistent Standard 
 
 Parzen, E., Tanabe, K. and Kitagawa, G. (1997). Selected Papers of Hirotugu Akaike. New York, NY: Springer New York. pp 275–280 https://doi.org/10.1007/978-1-4612-1694-0_21 *Akaike introduced an information criterion which is by definition (1.1) AIC=( -2) log (maximum likelihood) +2(number of parameters)  as an estimate of minus twice the expected log likelihood of the model  whose parameters are determined by the method of maximum likelihood. Here log denotes the natural logarithm.*
 
-PFF. (n.d.). PFF Player Grades. [online] Available at: https://www.pff.com/grades.[Accessed 28th Jun. 2024].
+PFF. (n.d.). PFF Player Grades. [online] Available at: https://www.pff.com/grades. [Accessed 28th Jun. 2024].
 
-‌RAS. (2017). RASAbout Me. [online] Available at: https://ras.football/about/ [Accessed 28 Jun. 2024].
+‌RAS. (2017). RASAbout Me. [online] Available at: https://ras.football/about/  [Accessed 28 Jun. 2024].
 
-RAS. (n.d.). RASRelative Athletic Scores grade a player’s measurements on a 0 to 10 scale compared to their peer group. [online] Available at: https://ras.football/[Accessed 28 Jun. 2024].
+RAS. (n.d.). RASRelative Athletic Scores grade a player’s measurements on a 0 to 10 scale compared to their peer group. [online] Available at: https://ras.football/ [Accessed 28 Jun. 2024].
 
 Sadanori Konishi and G Kitagawa (2008). Information criteria and statistical modeling. New York: Springer. (Volume 16, Issue 1, May 1981, Pages 3-14) *The basic idea underlying the use of an information criterion, called AIC, for model selection is the maximization of the expected log likelihood of a model determined by the method of maximum likelihood [Akaike (1973, 1974)].*
 
