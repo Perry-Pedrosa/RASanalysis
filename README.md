@@ -202,6 +202,12 @@ As mentioned before due to the non linearity of the data, it is advisable we tes
 
 ![heatmap](assets/mlr_heatmap.PNG)
 
+We need to adjust the parameters on the heatmap to make it more end user friendly:
+
+![debug](assets/corrmat_debug.PNG)
+![heatmap2](assets/heatmap2.PNG)
+
+
 As seen on the heatmap, the closest areas to 1 are seen between coverage types 'Man' and 'Zone', which is expected.. they are the same exercise performed in a different way. For now, we will keep both in but repeat the regression model a 2nd time, removing Zone as contextully is is the more dependent on "on field variables" out of the two. We will then compare the models to decide which is best.
 
 3 models were performed; the original indepdent variables were split into 2 as doing them together created a scenario where some variables were used as a subset to filter the dataset, this was likely due to multicollinearity concerns as 'Man' and 'Zone' were 2 of thise variables. The other two being 'Vert_Jump' and 'INTs'. Below we can see the perameters and statistics of each model, each one more refined and theoretically a better fit than the last based on statistical significance:
