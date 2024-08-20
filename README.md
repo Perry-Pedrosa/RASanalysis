@@ -35,8 +35,11 @@ Combine - An event draftees get tested in specific athletic exercises
 We set out to find out whether a high RAS score indicates a successful career. We used simple and multiple regression, using data across 10 years. We tested these models against eachother to understand significant predictors and found that RAS holds a moderate to strong correlation with success. Based on the other significant variables, theoretically success as an NFL cornerback can be determined by;
 
 •	High RAS score
+
 •	High interception count
+
 •	Long broad jump
+
 •	Excels in Zone 
 
 Understanding this, may help scouts hone in on traits that will make a successful player.
@@ -45,7 +48,7 @@ R was used for this analysis, because of its readability when evaluating models,
 
 Regression was chosen to understand the statistics behind each variable to quantify relationships. However, due to its sensitivity to outliers, this meant that work had to be put in to account for non-linearity. A decision tree could have been used to address this. However, due to the number of independent variables and therefore complexity I was using I didn’t want to risk building a model that risked overfitting and high variance.
 
-The model may have been more robust if we had more observations to use. However, due to the nature of the research question we will always only have a handful of observations per year and this was addressed by reconciling AIC by using BIC which considers the DoF.
+The model may have been more robust if we had more observations to use. However, due to the nature of the research question we will always only have a handful of observations per year and this was addressed by reconciling AIC by using BIC which considers the DoF. Using the evidence collected
 
 
 ## Project Background
