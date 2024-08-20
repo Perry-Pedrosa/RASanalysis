@@ -32,14 +32,21 @@ Combine - An event draftees get tested in specific athletic exercises
 
 ![RASxCareer](assets/lmfinal.PNG)
 
-We set out to find out whether a high RAS score indicates a successful career in the NFL. We used both simple and multiple regression, using variables across 10 years from player statistics, body measurements and combine workouts results and created a composite grading scale to use as a dependent variable. We then tested these models against each other to understand the most significant predictors when it came to a successful NFL career  and we found that RAS holds a moderate to strong correlation with NFL success. Based on the other significant variables, theoretically success as an NFL cornerback can be determined by a player who:
+We set out to find out whether a high RAS score indicates a successful career. We used simple and multiple regression, using data across 10 years. We tested these models against eachother to understand significant predictors and found that RAS holds a moderate to strong correlation with success. Based on the other significant variables, theoretically success as an NFL cornerback can be determined by;
 
-- Has a high RAS score
-- Has made a lot of interceptions in their career (including high school or college)
-- Excels at the broad jump at the NFL combine
-- Excels in Zone coverage
+•	High RAS score
+•	High interception count
+•	Long broad jump
+•	Excels in Zone 
 
-Understanding this, may very well help scouts hone in on specific traits that will make a successful, hopfully Superbowl winning cornerback.
+Understanding this, may help scouts hone in on traits that will make a successful player.
+
+R was used for this analysis, because of its readability when evaluating models, inclusion of variables and ease of package implementation. If known beforehand that we may have issues with multicollinearity we may have chosen a different tool like Python which has libraries and methods to detect and address multicollinearity which can reduce this by transforming correlated variables into a smaller set of uncorrelated variables. Furthermore, I could have utilised the R Package r/nflverse to get a more comprehensive dataset for player stats, this is something that will be explored for future iterations.
+
+Regression was chosen to understand the statistics behind each variable to quantify relationships. However, due to its sensitivity to outliers, this meant that work had to be put in to account for non-linearity. A decision tree could have been used to address this. However, due to the number of independent variables and therefore complexity I was using I didn’t want to risk building a model that risked overfitting and high variance.
+
+The model may have been more robust if we had more observations to use. However, due to the nature of the research question we will always only have a handful of observations per year and this was addressed by reconciling AIC by using BIC which considers the DoF.
+
 
 ## Project Background
 This objective is not to challenge the RAS model, it is to use the score as a variable to understand the correlation between a score and success and answer the following hypothesis.
@@ -144,11 +151,14 @@ It is to be noted and accepted that the dependent variable is not normally distr
 At a glance, there is no stong correlation between RAS and the composite grade, showing a concentration of points at the end of both axis.
 ### Evaluation
 
-Multiple R-squared (0.31135) - This tells us that 31% of the composite grade can be explained by RAS. The adjusted R-squared (0.311) is slightly lower, meaning that when the model is accounting for the number of predictors, its significance is slightly reduced.
+Multiple R-squared (0.31135) - tells us that 31% of the composite grade can be explained by RAS. The adjusted R-squared (0.311) is lower, meaning that when the model is accounting for the number of predictors, its significance is reduced.
 
-p-value (<2.2e-16) - the value shows that the model is statistically significant, and that RAS significantly predicts the composite grade, a F-Statistic (126.5) shows a substantial significance. However, it would need to be compared to models of similar context with varying degrees of freedom to truly be evaluated.
+p-value (<2.2e-16) - shows the model is significant, and that RAS predicts the composite grade, a F-Statistic (126.5) shows a substantial significance. However, it would need to be compared to models of similar context with varying degrees of freedom to truly be evaluated. 
 
-So although at a glance we did not see a strong relationship between the variables, based on the above, **we cannot reject *H1* as there is evidence of RAS being a reliable predictor**. However, testing against other variables may give us more of a full picture.
+Although immediately we did not see a strong relationship, based on the above, we cannot reject H1 as there is evidence of RAS being a reliable predictor. However, testing against other variables may give us more of a full picture.
+
+The residual standard error (1.041) is close to normality. Although there doesn’t seem to anything critical, the Scale Location shows potential of heteroscedasticity (Residual visualisations can be seen in Appendix D) (varying variance) which will be accounted for by checking for multicollinearity (high correlation) between the independent variables prior to multiple regression. Additionally, we will evaluate the results of a heteroscedasticity consistent covariance matrix (HCCM) to determine reliability.
+
 
 ![rVf](assets/slr_residuals.PNG)
 ![rVl](assets/slr_residvleverage.PNG)
@@ -234,6 +244,8 @@ The next step in this work will be to evaluate players drafted since 2023 and pr
 Work will be done in the near future to frame the players who meet the threshold of success based on the model and their progress tracked on a yearly basis to create extra valaidity for the methods used.
 
 It is important to remember there are always statistical outliers and contextual exceptions to this; Ahmad "Sauce" Gardner (pictured below), drafted in 2022 was excluded from this model as he did not have a qualifying RAS score. However, he was drafted in the 1st round and has 2 All Pro selections already in his career, but only 2 interceptions across those two years and thats because he is so good, opposing Quarterbacks will not throw his way. There are many nuances to the game of American Football and its what keeps it fresh, fun and keep analysts guessing.
+
+When addressing confounding variables, I could have considered further partial correlation analysis or structural equation modelling to further investigate. However, using correlation matrices, AIC & BIC models to validate my initial approach gave me reasonable confidence in my methods.
 
 ![Sauce Gardner](assets/cgv22122211789_nyj_jac.jpg)
 
