@@ -254,26 +254,40 @@ When addressing confounding variables, I could have considered further partial c
 
 # References
 
-Bevans, R. (2020). Linear Regression in R | An Easy Step-by-Step Guide. [online] Scribbr. Available at: https://www.scribbr.com/statistics/linear-regression-in-r/. [Accessed 13 Jul. 2024]
+Bevans, R. (2020). Linear Regression in R | An Easy Step-by-Step Guide. [online] Scribbr. Available at: https://www.scribbr.com/statistics/linear-regression-in-r/. [Accessed 15 Jul. 2024]
 
+Jensen, S. and Mulholland, J. (2014) Predicting the Draft and Career Success of Tight Ends in the National Football League [online] Available at: https://www.researchgate.net/publication/273193128_Predicting_the_Draft_and_Career_Success_of_Tight_Ends_in_the_National_Football_League [Accessed 02 Jul. 2024]. Case Study on other industry examples of using techniques to predict NFL career success. This paper will use data available to teams before the NFL draft, specifically size, college and combine performance measures, to address two important questions: 1. What are the best quantitative predictors for NFL draft order of tight ends? 2.What are the best quantitative predictors of NFL career success at the tight end position?
 
-Howland, F. and Barreto, H. eds., (2005). The Gauss–Markov Theorem. [online] Cambridge University Press. Available at: https://www.cambridge.org/core/books/abs/introductory-econometrics/gaussmarkov-theorem/704ECAC688A098805F6647E9D7B1F0AE [Accessed 5 Jul. 2024]. *The Gauss–Markov theorem also works in reverse: when the data generating process does not follow the classical econometric model, ordinary least squares is typically no longer the preferred estimator.*
+Henry, K. (2023). The RAS: What It Is, What It Does, And Should We Still Use It? [online] Daily Tidings. Available at: https://www.dailytidings.com/the-ras-what-it-is-what-it-does-and-should-we-still-use-it/ [Accessed 02 Jul. 2024]. One could compare RAS to an SAT score; it measures certain things about a person and their abilities, but does not capture the entire person and what they’re truly capable of.
 
-Long, J.S. and Ervin, L.H. (2000). Using Heteroscedasticity Consistent Standard Errors in the Linear Regression Model. The American Statistician, 54(3), pp.217–224. doi:https://doi.org/10.2307/2685594. [Accessed 5 Jul. 2024] *If the sample is less than 250, the form of HCCM known as HC3 should be used; when samples are 500 or larger, other versions of the HCCM can be used. The superiority of HC3 over HC2 lies in its better properties in the most extreme cases of heteroscedasticity.*
+Howland, F. and Barreto, H. eds., (2005). The Gauss–Markov Theorem. [online] Cambridge University Press. Available at: https://www.cambridge.org/core/books/abs/introductory-econometrics/gaussmarkov-theorem/704ECAC688A098805F6647E9D7B1F0AE [Accessed 5 Jul. 2024]. The Gauss–Markov theorem also works in reverse: when the data generating process does not follow the classical econometric model, ordinary least squares is typically no longer the preferred estimator.
 
-‌‌NFL.com. (n.d.). The high-wire life of an NFL cornerback. [online] Available at: https://www.nfl.com/news/the-high-wire-life-of-an-nfl-cornerback[Accessed 28 Jun. 2024]. *It's why the position is nicknamed The Island. Detached from 20 other players on the field, the cornerback knows millions of eyes will fall on him when quarterbacks launch the deep ball -- and in the case of touchdowns, many of those looks will turn to an angry glare.*
+Long, J.S. and Ervin, L.H. (2000). Using Heteroscedasticity Consistent Standard Errors in the Linear Regression Model. The American Statistician, 54(3), pp.217–224. doi:https://doi.org/10.2307/2685594. [Accessed 5 Jul. 2024] If the sample is less than 250, the form of HCCM known as HC3 should be used; when samples are 500 or larger, other versions of the HCCM can be used. The superiority of HC3 over HC2 lies in its better properties in the most extreme cases of heteroscedasticity.
 
-Parzen, E., Tanabe, K. and Kitagawa, G. (1997). Selected Papers of Hirotugu Akaike. New York, NY: Springer New York. pp 275–280 https://doi.org/10.1007/978-1-4612-1694-0_21 *Akaike introduced an information criterion which is by definition (1.1) AIC=( -2) log (maximum likelihood) +2(number of parameters)  as an estimate of minus twice the expected log likelihood of the model  whose parameters are determined by the method of maximum likelihood. Here log denotes the natural logarithm.*
+NFL.com. (2019). Next Gen Stats Draft Model can predict prospects’ pro success. [online] Available at: https://www.nfl.com/news/next-gen-stats-draft-model-can-predict-prospects-pro-success-0ap3000001103347#:~:text=The%20trick%20is%20separating%20the%20signal%20%28the%20inputs [Accessed 02 Jul. 2024]. Case Study: The pre-draft evaluation process, however, is often complicated by the fact that it takes place in an environment prone to subjective bias and overconfidence. In an effort to provide more objective analysis, NFL's Next Gen Stats team created the Next Gen Stats Draft Model, a refined and more predictive version of the 2019 model.
+
+NFL.com. (n.d.). The high-wire life of an NFL cornerback. [online] Available at: https://www.nfl.com/news/the-high-wire-life-of-an-nfl-cornerback[Accessed 28 Jun. 2024]. It's why the position is nicknamed The Island. Detached from 20 other players on the field, the cornerback knows millions of eyes will fall on him when quarterbacks launch the deep ball -- and in the case of touchdowns, many of those looks will turn to an angry glare.
+
+nflverse (2023). GitHub - nflverse/nflverse: Easily Install and Load the ‘nflverse’. [online] GitHub. Available at: https://github.com/nflverse/nflverse [Accessed 15 Aug. 2024].
+
+Parzen, E., Tanabe, K. and Kitagawa, G. (1997). Selected Papers of Hirotugu Akaike. New York, NY: Springer New York. pp 275–280 https://doi.org/10.1007/978-1-4612-1694-0_21 Akaike introduced an information criterion which is by definition (1.1) AIC=( -2) log (maximum likelihood) +2(number of parameters) as an estimate of minus twice the expected log likelihood of the model whose parameters are determined by the method of maximum likelihood. Here log denotes the natural logarithm.
 
 PFF. (n.d.). PFF Player Grades. [online] Available at: https://www.pff.com/grades. [Accessed 28th Jun. 2024].
 
-‌RAS. (2017). RASAbout Me. [online] Available at: https://ras.football/about/  [Accessed 28 Jun. 2024].
+PFF. (n.d.). Premium Stats Licensing. [online] Available at: https://www.pff.com/premiumstats#:~:text=All%20subscriptions%20will%20be%20subject%20to%20the%20terms [Accessed 1 Aug. 2024].
+
+RAS. (2017). RASAbout Me. [online] Available at: https://ras.football/about/ [Accessed 28 Jun. 2024].
 
 RAS. (n.d.). RASRelative Athletic Scores grade a player’s measurements on a 0 to 10 scale compared to their peer group. [online] Available at: https://ras.football/ [Accessed 28 Jun. 2024].
 
-Sadanori Konishi and G Kitagawa (2008). Information criteria and statistical modeling. New York: Springer. (Volume 16, Issue 1, May 1981, Pages 3-14) *The basic idea underlying the use of an information criterion, called AIC, for model selection is the maximization of the expected log likelihood of a model determined by the method of maximum likelihood [Akaike (1973, 1974)].*
+Sadanori Konishi and G Kitagawa (2008). Information criteria and statistical modeling. New York: Springer. (Volume 16, Issue 1, May 1981, Pages 3-14) The basic idea underlying the use of an information criterion, called AIC, for model selection is the maximization of the expected log likelihood of a model determined by the method of maximum likelihood [Akaike (1973, 1974)].
 
-Tranmer, M., Murphy, J., Elliot, M. and Pampaka, M. (2020). Multiple Linear Regression (2 nd Edition). [online] Available at: https://hummedia.manchester.ac.uk/institutes/cmist/archive-publications/working-papers/2020/multiple-linear-regression.pdf. [Accessed 5 Jul. 2024] *What is meant by a “high level of correlation” is somewhat subjective, here we apply a rule of thumb that any correlation over |0.7| is considered high. Where a pair of variables are highly correlated, it may be worth considering removing one of them from the analysis.*
+Schram, A. (2023). All you need to know about how PFF FC grades are calculated. [online] PFF. Available at: https://www.pff.com/news/pff-fc-all-you-need-to-know-about-how-grades-are-calculated [Accessed 8 Aug. 2024].
+
+Tranmer, M., Murphy, J., Elliot, M. and Pampaka, M. (2020). Multiple Linear Regression (2 nd Edition). [online] Available at: https://hummedia.manchester.ac.uk/institutes/cmist/archive-publications/working-papers/2020/multiple-linear-regression.pdf. [Accessed 5 Jul. 2024] What is meant by a “high level of correlation” is somewhat subjective, here we apply a rule of thumb that any correlation over |0.7| is considered high. Where a pair of variables are highly correlated, it may be worth considering removing one of them from the analysis.
+
+Tristancho, C. (2023). Stakeholder Mapping 101: a Quick Guide to Stakeholder Maps. [online] ProjectManager.com. Available at: https://www.projectmanager.com/blog/stakeholder-mapping-guide. [Accessed 5 Aug. 2024]
+
 
 
 
